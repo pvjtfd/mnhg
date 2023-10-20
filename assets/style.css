@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.hero{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.hero_buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.hero_buttons a{
+    padding: 13px 30px;
+    background: #ff00e6;
+    color: #fff;
+    margin-top: 10px;
+    width: 345px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero_pictures{
+    margin-top: 25px;
+}
+
+.profile_image img{
+    border-radius: 50px;
+    width: 50px;
+}
+
+.picture{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+    margin-left: 7px;
+}
+
+a.picture_link{
+    width: 160px;
+    height: 160px;
+    display:block;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.back{
+    margin-bottom: 20px;
+}
+
+.back h2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #0866FF;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.link2{
+    background-image: url(https://res.cloudinary.com/dpega5osf/image/upload/v1696149718/photo_2023-08-26_08-31-08_cqssfz.jpg);
+}
+
+.link3{
+    background-image: url(https://res.cloudinary.com/dpega5osf/image/upload/v1696149717/photo_2023-08-26_08-31-04_kkta8e.jpg);
+}
+
+.link4{
+    background-image: url(https://res.cloudinary.com/dpega5osf/image/upload/v1696149717/photo_2023-08-26_08-31-03_wjqeh0.jpg);
+}
+
+.link5{
+    background-image: url(https://res.cloudinary.com/dpega5osf/image/upload/v1696149718/photo_2023-08-26_08-31-06_uncagg.jpg);
+}
+
+.link6{
+    background-image: url(https://res.cloudinary.com/dpega5osf/image/upload/v1696149939/photo_2023-08-26_08-31-05_2_ngzzbx.jpg);
+}
+
+.link7{
+    background-image: url(https://res.cloudinary.com/dpega5osf/image/upload/v1696149717/photo_2023-08-26_08-31-05_lbqkxe.jpg);
+}
+
+
+.link_wrap a:nth-child(2){
+    width: 160px;
+    display: block;
+    color: #0789BC;
+    border: 1px solid #0789BC;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.link_wrap a:nth-child(2) p{
+    margin-left: 45px;
+}
+
